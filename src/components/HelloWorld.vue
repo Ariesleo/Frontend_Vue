@@ -1,6 +1,9 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
+    <p>abaksls <i class="fa fa-google"></i></p>
+    <b-icon-exclamation-triangle-fill></b-icon-exclamation-triangle-fill>
+    <b-icon icon="lock"></b-icon>
   </div>
 </template>
 
