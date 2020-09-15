@@ -7,7 +7,7 @@
       <div class="input-group">
         <div class="input-group-prepend">
           <span class="input-group-text">
-            <i class="fa fa-paper-plane"></i>
+            <b-icon icon="envelope"></b-icon>
           </span>
         </div>
         <input
@@ -24,7 +24,7 @@
       <div class="input-group">
         <div class="input-group-prepend">
           <span class="input-group-text">
-            <i class="fa fa-lock"></i>
+            <b-icon icon="lock-fill"></b-icon>
           </span>
         </div>
         <input

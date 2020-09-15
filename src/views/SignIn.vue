@@ -7,7 +7,7 @@
       <div class="input-group">
         <div class="input-group-prepend">
           <span class="input-group-text">
-            <i class="fa fa-paper-plane"></i>
+            <b-icon icon="person-fill"></b-icon>
           </span>
         </div>
         <input
@@ -24,7 +24,7 @@
       <div class="input-group">
         <div class="input-group-prepend">
           <span class="input-group-text">
-            <i class="fa fa-lock"></i>
+            <b-icon icon="lock-fill"></b-icon>
           </span>
         </div>
         <input
@@ -39,16 +39,18 @@
     </div>
     <div class="form-group">
       <button type="submit" class="btn btn-primary btn-lg">
-        <i class="fa fa-google"></i>"Sign in with Google
+        SignIn
+        <b-icon icon="box-arrow-in-right"></b-icon>
       </button>
     </div>
-    <div class="form-group">
-      <button type="submit" class="btn btn-primary btn-lg">SignIn</button>
-    </div>
-
     <div class="text-center">
       Don't have an account?
       <router-link to="/register">Register HERE!</router-link>
+    </div>
+    <div class="form-group">
+      <button type="submit" class="btn btn-primary btn-lg">
+        <i class="fa fa-google"></i>Sign in with Google
+      </button>
     </div>
   </div>
 </template>
